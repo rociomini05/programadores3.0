@@ -1,0 +1,31 @@
+Algo interesante de nuestros tableros es que en sus celdas podemos poner cualquier cantidad de bolitas de cualquier color.
+y ejecutamos el siguiente programa:
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Azul)
+  Poner(Verde)
+  Poner(Rojo)
+}
+el cabezal colocará en la celda actual tres bolitas rojas, una azul y una verde.
+
+
+Notá que en este problema, si cambiamos el orden en que llamamos (usamos a) Poner, el resultado no cambia: siempre nos terminará quedando un tablero con tres bolitas rojas, una azul y una verde.
+
+Por ejemplo, los siguientes dos programas también resuelven este mismo problema:
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Azul)
+}
+program {
+  Poner(Rojo)
+  Poner(Azul)
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Rojo)
+}

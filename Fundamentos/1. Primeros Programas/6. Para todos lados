@@ -1,0 +1,18 @@
+Como te imaginarás, el cabezal no sólo se puede mover hacia el Norte, y un programa puede combinar cualquier tipo de movimientos.
+
+
+Recordá que el comando que mueve el cabezal se llama Mover (ni mOvEr, ni mover, ni MOVER). ¡Respetar la sintaxis es muy importante! Si no lo hacés, el programá no andará: buuuu 
+
+Las direcciones tienen los nombres de los cuatro puntos cardinales, con la primera letra en mayúsculas:
+
+Norte
+Sur
+Este
+Oeste
+
+Escribí un programa que mueva el cabezal dos posiciones hacia el Este y una hacia el Sur:
+program {
+  Mover(Este)
+  Mover(Este)
+  Mover(Sur)
+}
